@@ -1,0 +1,19 @@
+a:link {
+  color: blue; /* Unvisited link */
+}
+
+a:visited {
+  color: purple; /* Visited link */
+}
+
+a:hover {
+  color: red; /* Mouse over link */
+}
+
+a:focus {
+  outline: 2px solid orange; /* Focused link */
+}
+
+a:active {
+  color: green; /* Active link */
+}
