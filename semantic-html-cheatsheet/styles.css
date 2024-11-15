@@ -1,0 +1,28 @@
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+    color:maroon;
+}
+
+table {
+    border: 2px solid maroon;
+    width: 650px;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+
+.tag {
+    font-family: monospace;
+    background-color: lightgrey;
+}
+
+th {
+    background-color: indianred;
+}
+
+td {
+    border: 1px solid maroon;
+    padding: 2px;
+}
