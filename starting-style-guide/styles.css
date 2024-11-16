@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "DMSans";
+    src: url("resources/fonts/DM_Sans/static/DMSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "DMSerif";
+    src: url("resources/fonts/DM_Serif_Text/DMSerifText-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RubikGlitch";
+    src: url("resources/fonts/Rubik_Glitch/RubikGlitch-Regular.ttf") format("truetype");
+}
+
+body {
+  font-family: "DMSans", sans-serif;
+  margin: 0 10%;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/*COLORS*/
+.color-panel {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.color-container {
+    width: 100%;
+}
+
+/* when replacing these & add "background-" to the color declarations
+add 'color: white;' so text can show up on darker colors */
+
+.color-1 {
+    background-color: #e5d3b7;
+}
+.color-2 {
+    background-color: #5c78cd;
+    color: white;
+}
+.color-3 {
+    background-color: #aaa6aa;
+}
+.color-4 {
+    background-color: #b7e5bc;
+}
+.color-5 {
+    background-color: #cd5c5c;
+}
+.color-6 {
+    background-color: #900c2f;
+    color: white;
+}
+
+.container h2 {
+
+}
+
+/*FONTS*/
+.font-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular {
+    font-style: normal;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.font-1 {
+    font-family: 'DMSans', 'Arial', sans-serif;
+}
+
+.font-2 {
+    font-family: 'DMSerif', 'Times New Roman', serif;
+}
+
+.font-3 {
+    font-family: 'RubikGlitch', 'DMSans', 'Arial', sans-serif;
+}
+
+.text-panel h1 {
+    font-family: 'DMSerif', 'Times New Roman', serif;
+}
+
+.text-panel h2 {
+    font-family: 'DMSans', 'Arial', sans-serif;
+}
+
+.text-panel p {
+    font-family: 'DMSans', 'Arial', sans-serif;
+}
